@@ -9,6 +9,10 @@ interface Props {
 
 export default observer(function ActivityDetailedSidebar({ activity: { attendees, host } }: Props) {
     if (!attendees) return null;
+    const theHost = attendees.find(x => x.username === host?.username);
+    const otherAttendees = attendees.filter(x => x.username !== host?.username);
+    attendees = [theHost!, ...otherAttendees];
+    
     return (
         <>
             <Segment
