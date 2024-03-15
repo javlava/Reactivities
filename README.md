@@ -1,6 +1,6 @@
 # Reactivities Website
 
-Welcome to Reactivities, a web application for managing activities and events! This project utilizes a tech stack consisting of C#, ASP.NET Core, React with TypeScript, Entity Framework Core, Semantic UI, Vite, MediatR, and SignalR.
+Welcome to Reactivities, a web application for managing activities and events! This project utilizes a tech stack consisting of C#, ASP.NET Core, React with TypeScript, Entity Framework Core, Semantic UI, and Vite.
 
 ## Getting Started
 
